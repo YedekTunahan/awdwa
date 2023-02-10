@@ -16,6 +16,24 @@
 		11DAF54A2993D6BA00FFFED7 /* whizzizDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF5492993D6BA00FFFED7 /* whizzizDemoTests.swift */; };
 		11DAF5542993D6BB00FFFED7 /* whizzizDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF5532993D6BB00FFFED7 /* whizzizDemoUITests.swift */; };
 		11DAF5562993D6BB00FFFED7 /* whizzizDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF5552993D6BB00FFFED7 /* whizzizDemoUITestsLaunchTests.swift */; };
+		11DAF5672993DFAF00FFFED7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF5662993DFAF00FFFED7 /* SignUpViewController.swift */; };
+		11DAF5692993FC3000FFFED7 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF5682993FC3000FFFED7 /* VerificationViewController.swift */; };
+		11DAF56B2994036B00FFFED7 /* ServicePostSms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF56A2994036B00FFFED7 /* ServicePostSms.swift */; };
+		11DAF56D299405FB00FFFED7 /* UserInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF56C299405FB00FFFED7 /* UserInformationModel.swift */; };
+		11DAF5702994E24200FFFED7 /* ModelPostSmsOtpBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF56F2994E24200FFFED7 /* ModelPostSmsOtpBody.swift */; };
+		11DAF5732994E65700FFFED7 /* APIvariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF5722994E65700FFFED7 /* APIvariables.swift */; };
+		11DAF575299505D700FFFED7 /* ModelPostSmsOtpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF574299505D700FFFED7 /* ModelPostSmsOtpResponse.swift */; };
+		11DAF5772995176700FFFED7 /* ModelPostSmsOtpVerificationBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF5762995176700FFFED7 /* ModelPostSmsOtpVerificationBody.swift */; };
+		11DAF57B2995186B00FFFED7 /* ModelPostSmsOtpVerificationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF57A2995186B00FFFED7 /* ModelPostSmsOtpVerificationResponse.swift */; };
+		11DAF57D299519C500FFFED7 /* ServicePostSmsOtpVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF57C299519C500FFFED7 /* ServicePostSmsOtpVerification.swift */; };
+		11DAF57F299519EE00FFFED7 /* RequestSmsOtpSend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF57E299519EE00FFFED7 /* RequestSmsOtpSend.swift */; };
+		11DAF58129951A0E00FFFED7 /* RequestSmsOtpVerificationSend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF58029951A0E00FFFED7 /* RequestSmsOtpVerificationSend.swift */; };
+		11DAF584299532FB00FFFED7 /* VMsmsOtpSend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF583299532FB00FFFED7 /* VMsmsOtpSend.swift */; };
+		11DAF5862995515100FFFED7 /* ExtensionSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF5852995515100FFFED7 /* ExtensionSignUpViewController.swift */; };
+		11DAF588299572E800FFFED7 /* ButtonFeatureFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF587299572E800FFFED7 /* ButtonFeatureFuncs.swift */; };
+		11DAF58A29959E6F00FFFED7 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF58929959E6F00FFFED7 /* Values.swift */; };
+		11DAF58C2995A20800FFFED7 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF58B2995A20800FFFED7 /* Time.swift */; };
+		11DAF5CB299630D800FFFED7 /* ExtensionVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAF5CA299630D800FFFED7 /* ExtensionVerificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		11DAF54F2993D6BB00FFFED7 /* whizzizDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whizzizDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DAF5532993D6BB00FFFED7 /* whizzizDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whizzizDemoUITests.swift; sourceTree = "<group>"; };
 		11DAF5552993D6BB00FFFED7 /* whizzizDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whizzizDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11DAF5662993DFAF00FFFED7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		11DAF5682993FC3000FFFED7 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		11DAF56A2994036B00FFFED7 /* ServicePostSms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePostSms.swift; sourceTree = "<group>"; };
+		11DAF56C299405FB00FFFED7 /* UserInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationModel.swift; sourceTree = "<group>"; };
+		11DAF56F2994E24200FFFED7 /* ModelPostSmsOtpBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPostSmsOtpBody.swift; sourceTree = "<group>"; };
+		11DAF5722994E65700FFFED7 /* APIvariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIvariables.swift; sourceTree = "<group>"; };
+		11DAF574299505D700FFFED7 /* ModelPostSmsOtpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPostSmsOtpResponse.swift; sourceTree = "<group>"; };
+		11DAF5762995176700FFFED7 /* ModelPostSmsOtpVerificationBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPostSmsOtpVerificationBody.swift; sourceTree = "<group>"; };
+		11DAF57A2995186B00FFFED7 /* ModelPostSmsOtpVerificationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPostSmsOtpVerificationResponse.swift; sourceTree = "<group>"; };
+		11DAF57C299519C500FFFED7 /* ServicePostSmsOtpVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePostSmsOtpVerification.swift; sourceTree = "<group>"; };
+		11DAF57E299519EE00FFFED7 /* RequestSmsOtpSend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSmsOtpSend.swift; sourceTree = "<group>"; };
+		11DAF58029951A0E00FFFED7 /* RequestSmsOtpVerificationSend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSmsOtpVerificationSend.swift; sourceTree = "<group>"; };
+		11DAF583299532FB00FFFED7 /* VMsmsOtpSend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMsmsOtpSend.swift; sourceTree = "<group>"; };
+		11DAF5852995515100FFFED7 /* ExtensionSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSignUpViewController.swift; sourceTree = "<group>"; };
+		11DAF587299572E800FFFED7 /* ButtonFeatureFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFeatureFuncs.swift; sourceTree = "<group>"; };
+		11DAF58929959E6F00FFFED7 /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
+		11DAF58B2995A20800FFFED7 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		11DAF5CA299630D800FFFED7 /* ExtensionVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionVerificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +135,11 @@
 		11DAF5312993D6B600FFFED7 /* whizzizDemo */ = {
 			isa = PBXGroup;
 			children = (
-				11DAF5322993D6B600FFFED7 /* AppDelegate.swift */,
-				11DAF5342993D6B600FFFED7 /* SceneDelegate.swift */,
-				11DAF5362993D6B600FFFED7 /* ViewController.swift */,
+				11DAF5712994E63C00FFFED7 /* Constants */,
+				11DAF5652993D84C00FFFED7 /* ViewModel */,
+				11DAF5642993D84600FFFED7 /* View */,
+				11DAF5632993D83F00FFFED7 /* Service */,
+				11DAF5622993D83800FFFED7 /* Model */,
 				11DAF5382993D6B600FFFED7 /* Main.storyboard */,
 				11DAF53B2993D6BA00FFFED7 /* Assets.xcassets */,
 				11DAF53D2993D6BA00FFFED7 /* LaunchScreen.storyboard */,
@@ -125,6 +163,102 @@
 				11DAF5552993D6BB00FFFED7 /* whizzizDemoUITestsLaunchTests.swift */,
 			);
 			path = whizzizDemoUITests;
+			sourceTree = "<group>";
+		};
+		11DAF5622993D83800FFFED7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF5822995327600FFFED7 /* SmsOtpVerificationSend */,
+				11DAF5782995181F00FFFED7 /* SmsOtpSend */,
+				11DAF56C299405FB00FFFED7 /* UserInformationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11DAF5632993D83F00FFFED7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF56A2994036B00FFFED7 /* ServicePostSms.swift */,
+				11DAF57C299519C500FFFED7 /* ServicePostSmsOtpVerification.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		11DAF5642993D84600FFFED7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF5322993D6B600FFFED7 /* AppDelegate.swift */,
+				11DAF5342993D6B600FFFED7 /* SceneDelegate.swift */,
+				11DAF5362993D6B600FFFED7 /* ViewController.swift */,
+				11DAF5662993DFAF00FFFED7 /* SignUpViewController.swift */,
+				11DAF5682993FC3000FFFED7 /* VerificationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11DAF5652993D84C00FFFED7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF583299532FB00FFFED7 /* VMsmsOtpSend.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11DAF5712994E63C00FFFED7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF5CE2996587300FFFED7 /* ApiTakeRequestMethods */,
+				11DAF5CD2996579900FFFED7 /* Buttons */,
+				11DAF5C9299630B000FFFED7 /* Extensions */,
+				11DAF5722994E65700FFFED7 /* APIvariables.swift */,
+				11DAF58929959E6F00FFFED7 /* Values.swift */,
+				11DAF58B2995A20800FFFED7 /* Time.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		11DAF5782995181F00FFFED7 /* SmsOtpSend */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF56F2994E24200FFFED7 /* ModelPostSmsOtpBody.swift */,
+				11DAF574299505D700FFFED7 /* ModelPostSmsOtpResponse.swift */,
+			);
+			path = SmsOtpSend;
+			sourceTree = "<group>";
+		};
+		11DAF5822995327600FFFED7 /* SmsOtpVerificationSend */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF5762995176700FFFED7 /* ModelPostSmsOtpVerificationBody.swift */,
+				11DAF57A2995186B00FFFED7 /* ModelPostSmsOtpVerificationResponse.swift */,
+			);
+			path = SmsOtpVerificationSend;
+			sourceTree = "<group>";
+		};
+		11DAF5C9299630B000FFFED7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF5852995515100FFFED7 /* ExtensionSignUpViewController.swift */,
+				11DAF5CA299630D800FFFED7 /* ExtensionVerificationViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11DAF5CD2996579900FFFED7 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF587299572E800FFFED7 /* ButtonFeatureFuncs.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		11DAF5CE2996587300FFFED7 /* ApiTakeRequestMethods */ = {
+			isa = PBXGroup;
+			children = (
+				11DAF58029951A0E00FFFED7 /* RequestSmsOtpVerificationSend.swift */,
+				11DAF57E299519EE00FFFED7 /* RequestSmsOtpSend.swift */,
+			);
+			path = ApiTakeRequestMethods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +392,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DAF584299532FB00FFFED7 /* VMsmsOtpSend.swift in Sources */,
+				11DAF5732994E65700FFFED7 /* APIvariables.swift in Sources */,
+				11DAF588299572E800FFFED7 /* ButtonFeatureFuncs.swift in Sources */,
+				11DAF58129951A0E00FFFED7 /* RequestSmsOtpVerificationSend.swift in Sources */,
 				11DAF5372993D6B600FFFED7 /* ViewController.swift in Sources */,
 				11DAF5332993D6B600FFFED7 /* AppDelegate.swift in Sources */,
+				11DAF5692993FC3000FFFED7 /* VerificationViewController.swift in Sources */,
+				11DAF58A29959E6F00FFFED7 /* Values.swift in Sources */,
+				11DAF56B2994036B00FFFED7 /* ServicePostSms.swift in Sources */,
+				11DAF57D299519C500FFFED7 /* ServicePostSmsOtpVerification.swift in Sources */,
+				11DAF56D299405FB00FFFED7 /* UserInformationModel.swift in Sources */,
+				11DAF575299505D700FFFED7 /* ModelPostSmsOtpResponse.swift in Sources */,
+				11DAF5CB299630D800FFFED7 /* ExtensionVerificationViewController.swift in Sources */,
+				11DAF58C2995A20800FFFED7 /* Time.swift in Sources */,
+				11DAF5772995176700FFFED7 /* ModelPostSmsOtpVerificationBody.swift in Sources */,
+				11DAF5702994E24200FFFED7 /* ModelPostSmsOtpBody.swift in Sources */,
+				11DAF5672993DFAF00FFFED7 /* SignUpViewController.swift in Sources */,
 				11DAF5352993D6B600FFFED7 /* SceneDelegate.swift in Sources */,
+				11DAF5862995515100FFFED7 /* ExtensionSignUpViewController.swift in Sources */,
+				11DAF57B2995186B00FFFED7 /* ModelPostSmsOtpVerificationResponse.swift in Sources */,
+				11DAF57F299519EE00FFFED7 /* RequestSmsOtpSend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
